@@ -1,0 +1,3 @@
+# PHP Null Handling Bug
+
+This repository demonstrates a common error in PHP related to handling `null` values in conditional statements. Due to PHP's loose typing, comparisons with `null` can lead to unexpected behavior, resulting in logical errors that are difficult to track down.  The `bug.php` file showcases the problem, while `bugSolution.php` provides a corrected version with improved null handling.
